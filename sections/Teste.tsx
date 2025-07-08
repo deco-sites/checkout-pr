@@ -6,5 +6,5 @@ interface Props {
 }
 
 export default function Section({ name = "Capy" }: Props) {
-  return <div>Hello {name}</div>
+  return <div style={{ padding: "16px", backgroundColor: "red", width: "100%", height: "70px" }}>Hello {name}</div>
 }
