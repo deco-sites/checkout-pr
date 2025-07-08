@@ -1,7 +1,8 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
+import Image from "apps/website/components/Image.tsx";
 
 interface Props {
-  image: string;
+  image: ImageWidget;
   alt?: string;
   height?: number;
   width?: number;
